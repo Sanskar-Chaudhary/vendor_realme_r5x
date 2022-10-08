@@ -102,7 +102,7 @@ android_app_import {
 android_app_import {
 	name: "QtiTelephonyService",
 	owner: "realme",
-	apk: "proprietary/product/app/QtiTelephonyService/QtiTelephonyService.apk",
+	apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -113,7 +113,7 @@ android_app_import {
 android_app_import {
 	name: "embms",
 	owner: "realme",
-	apk: "proprietary/product/app/embms/embms.apk",
+	apk: "proprietary/system_ext/app/embms/embms.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -124,7 +124,7 @@ android_app_import {
 android_app_import {
 	name: "imssettings",
 	owner: "realme",
-	apk: "proprietary/product/app/imssettings/imssettings.apk",
+	apk: "proprietary/system_ext/app/imssettings/imssettings.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -135,7 +135,7 @@ android_app_import {
 android_app_import {
 	name: "uceShimService",
 	owner: "realme",
-	apk: "proprietary/product/app/uceShimService/uceShimService.apk",
+	apk: "proprietary/system_ext/app/uceShimService/uceShimService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -146,7 +146,7 @@ android_app_import {
 android_app_import {
 	name: "ims",
 	owner: "realme",
-	apk: "proprietary/product/priv-app/ims/ims.apk",
+	apk: "proprietary/system_ext/priv-app/ims/ims.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -158,7 +158,7 @@ android_app_import {
 android_app_import {
 	name: "qcrilmsgtunnel",
 	owner: "realme",
-	apk: "proprietary/product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
+	apk: "proprietary/system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -223,63 +223,63 @@ dex_import {
 dex_import {
 	name: "QtiTelephonyServicelibrary",
 	owner: "realme",
-	jars: ["proprietary/product/framework/QtiTelephonyServicelibrary.jar"],
+	jars: ["proprietary/system_ext/framework/QtiTelephonyServicelibrary.jar"],
 	product_specific: true,
 }
 
 dex_import {
 	name: "com.qti.snapdragon.sdk.display",
 	owner: "realme",
-	jars: ["proprietary/product/framework/com.qti.snapdragon.sdk.display.jar"],
+	jars: ["proprietary/system_ext/framework/com.qti.snapdragon.sdk.display.jar"],
 	product_specific: true,
 }
 
 dex_import {
 	name: "com.qualcomm.qti.imscmservice-V2.0-java",
 	owner: "realme",
-	jars: ["proprietary/product/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar"],
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar"],
 	product_specific: true,
 }
 
 dex_import {
 	name: "com.qualcomm.qti.imscmservice-V2.1-java",
 	owner: "realme",
-	jars: ["proprietary/product/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar"],
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar"],
 	product_specific: true,
 }
 
 dex_import {
 	name: "com.qualcomm.qti.imscmservice-V2.2-java",
 	owner: "realme",
-	jars: ["proprietary/product/framework/com.qualcomm.qti.imscmservice-V2.2-java.jar"],
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.2-java.jar"],
 	product_specific: true,
 }
 
 dex_import {
 	name: "com.qualcomm.qti.uceservice-V2.0-java",
 	owner: "realme",
-	jars: ["proprietary/product/framework/com.qualcomm.qti.uceservice-V2.0-java.jar"],
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.0-java.jar"],
 	product_specific: true,
 }
 
 dex_import {
 	name: "com.qualcomm.qti.uceservice-V2.1-java",
 	owner: "realme",
-	jars: ["proprietary/product/framework/com.qualcomm.qti.uceservice-V2.1-java.jar"],
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.1-java.jar"],
 	product_specific: true,
 }
 
 dex_import {
 	name: "embmslibrary",
 	owner: "realme",
-	jars: ["proprietary/product/framework/embmslibrary.jar"],
+	jars: ["proprietary/system_ext/framework/embmslibrary.jar"],
 	product_specific: true,
 }
 
 dex_import {
 	name: "qcrilhook",
 	owner: "realme",
-	jars: ["proprietary/product/framework/qcrilhook.jar"],
+	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
 	product_specific: true,
 }
 
@@ -293,21 +293,21 @@ dex_import {
 dex_import {
 	name: "vendor.qti.ims.callinfo-V1.0-java",
 	owner: "realme",
-	jars: ["proprietary/product/framework/vendor.qti.ims.callinfo-V1.0-java.jar"],
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.callinfo-V1.0-java.jar"],
 	product_specific: true,
 }
 
 dex_import {
 	name: "vendor.qti.ims.rcsconfig-V1.0-java",
 	owner: "realme",
-	jars: ["proprietary/product/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar"],
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar"],
 	product_specific: true,
 }
 
 dex_import {
 	name: "vendor.qti.ims.rcsconfig-V1.1-java",
 	owner: "realme",
-	jars: ["proprietary/product/framework/vendor.qti.ims.rcsconfig-V1.1-java.jar"],
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V1.1-java.jar"],
 	product_specific: true,
 }
 
