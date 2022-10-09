@@ -230,7 +230,7 @@ dex_import {
 dex_import {
 	name: "com.qti.snapdragon.sdk.display",
 	owner: "realme",
-	jars: ["proprietary/system_ext/framework/com.qti.snapdragon.sdk.display.jar"],
+	jars: ["proprietary/product/framework/com.qti.snapdragon.sdk.display.jar"],
 	product_specific: true,
 }
 
@@ -286,7 +286,7 @@ dex_import {
 dex_import {
 	name: "vendor.qti.hardware.data.iwlan-V1.0-java",
 	owner: "realme",
-	jars: ["proprietary/product/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar"],
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar"],
 	product_specific: true,
 }
 
